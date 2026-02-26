@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.TelaPrincipal">
+  <grid id="27dc6" binding="painelPrincipal" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="13" y="8" width="1098" height="754"/>
+    </constraints>
+    <properties>
+      <background color="-8705740"/>
+    </properties>
+    <border type="etched"/>
+    <children>
+      <grid id="a8132" binding="jpTopo" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11908534"/>
+        </properties>
+        <border type="etched"/>
+        <children>
+          <grid id="dd8c8" class="javax.swing.JMenuBar" binding="jmBar" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+              <foreground color="-1"/>
+            </properties>
+            <border type="etched"/>
+            <children>
+              <grid id="18817" class="javax.swing.JMenu" binding="jmCadastros" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font size="18"/>
+                  <foreground color="-1"/>
+                  <icon value="Img/cadastro.png"/>
+                  <text value="Cadastros"/>
+                </properties>
+                <border type="empty"/>
+                <children>
+                  <component id="fc9a3" class="javax.swing.JMenuItem" binding="jmiFuncionario">
+                    <constraints/>
+                    <properties>
+                      <background color="-2104859"/>
+                      <text value="Funcionarios"/>
+                    </properties>
+                  </component>
+                  <component id="a5ffe" class="javax.swing.JMenuItem" binding="jmiClientes">
+                    <constraints/>
+                    <properties>
+                      <background color="-2104859"/>
+                      <text value="Clientes"/>
+                    </properties>
+                  </component>
+                  <component id="525fd" class="javax.swing.JMenuItem" binding="jmiVeiculos">
+                    <constraints/>
+                    <properties>
+                      <background color="-2104859"/>
+                      <enabled value="true"/>
+                      <text value="Veiculos"/>
+                    </properties>
+                  </component>
+                  <component id="7b80b" class="javax.swing.JMenuItem" binding="jmiPecas">
+                    <constraints/>
+                    <properties>
+                      <text value="Peças"/>
+                    </properties>
+                  </component>
+                  <component id="f0f38" class="javax.swing.JMenuItem" binding="jmiFornecedores">
+                    <constraints/>
+                    <properties>
+                      <text value="Fornecedores"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="40fb2" class="javax.swing.JMenu" binding="jmRelatorios" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font size="18"/>
+                  <foreground color="-1"/>
+                  <icon value="Img/relatorio-de-inspecao.png"/>
+                  <text value="Relatorios de Serviços"/>
+                </properties>
+                <border type="empty"/>
+                <children>
+                  <component id="ea84c" class="javax.swing.JMenuItem" binding="jmiServicosVendidos">
+                    <constraints/>
+                    <properties>
+                      <text value="Serviços Vendidos"/>
+                    </properties>
+                  </component>
+                  <component id="cbc0d" class="javax.swing.JMenuItem" binding="jmiPecasUtili">
+                    <constraints/>
+                    <properties>
+                      <text value="Peças Vendidas"/>
+                    </properties>
+                  </component>
+                  <component id="901fb" class="javax.swing.JMenuItem" binding="jmiRelatorioFinanceiro">
+                    <constraints/>
+                    <properties>
+                      <text value="Relatorio Financeiro"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="84505" class="javax.swing.JMenu" binding="jmVendas" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font size="18"/>
+                  <foreground color="-1"/>
+                  <icon value="Img/ordem-de-servico.png"/>
+                  <text value="Vendas"/>
+                </properties>
+                <border type="empty"/>
+                <children>
+                  <component id="91996" class="javax.swing.JMenuItem" binding="jmiVendaService">
+                    <constraints/>
+                    <properties>
+                      <text value="Venda de Serviços"/>
+                    </properties>
+                  </component>
+                  <component id="a73e6" class="javax.swing.JMenuItem" binding="jmiVendaPecas">
+                    <constraints/>
+                    <properties>
+                      <text value="Venda de Peças"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="a7b82" class="javax.swing.JMenu" binding="jmFinanceiro" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font size="18"/>
+                  <foreground color="-1"/>
+                  <hideActionText value="false"/>
+                  <icon value="Img/contabilidade.png"/>
+                  <text value="Financeiro"/>
+                </properties>
+                <border type="empty"/>
+                <children>
+                  <component id="f6c33" class="javax.swing.JMenuItem" binding="jmiDespesas">
+                    <constraints/>
+                    <properties>
+                      <background color="-2104859"/>
+                      <selected value="true"/>
+                      <text value="Despesas"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="a81a2" class="javax.swing.JMenuBar" binding="jmBarSair" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+            </properties>
+            <border type="etched"/>
+            <children>
+              <grid id="e2714" class="javax.swing.JMenu" binding="jmSair" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font size="18"/>
+                  <foreground color="-1"/>
+                  <icon value="Img/sair2.png"/>
+                  <popupMenuVisible value="false"/>
+                  <text value="Sair"/>
+                </properties>
+                <border type="empty"/>
+                <children>
+                  <component id="85748" class="javax.swing.JMenuItem" binding="jmiSair">
+                    <constraints/>
+                    <properties>
+                      <background color="-2104859"/>
+                      <text value="Sair"/>
+                    </properties>
+                  </component>
+                  <hspacer id="49a61">
+                    <constraints/>
+                  </hspacer>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <hspacer id="1632a">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="298fd" class="javax.swing.JLabel" binding="jlLogoMarca">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Bodoni MT Black" size="12"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="10"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="Img/manutencao.png"/>
+              <text value="Oficina Oficial"/>
+            </properties>
+          </component>
+          <hspacer id="589a1">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="ac61e" binding="jpNomeSist" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11908534"/>
+          <font/>
+        </properties>
+        <border type="etched"/>
+        <children>
+          <component id="72268" class="javax.swing.JLabel" binding="jlNomeSist">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Bodoni MT Black" size="28"/>
+              <foreground color="-1"/>
+              <icon value="Img/manutencao.png"/>
+              <text value="Oficina Oficial"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="1a1e2" class="javax.swing.JLabel" binding="jlImagens">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="Img/mechanic_resized_1090x628.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
